@@ -13,3 +13,25 @@ __Instalación__
 5. Lanza docker compose: docker-compose up -d
 
 Si no has modificado la config de los vhosts, verás tu entorno en http://drupal.localhost o https://drupal.localhost
+
+__Funcionalidades__
+
+- Apache2 + Php 7.1/7.2/7.3
+- Adminer (http://localhost) para gestionar bbdd
+- Revisión de logs visual mediante pimpmylog en http://logs.localhost
+
+__Como usar adminer__
+
+Adminer responde a la conexión por defecto en http://localhost. Para conectarnos a la BBDD usar estos datos:
+*Server*: mysql
+*Username*: docker
+*Password*: docker
+
+
+__CHANGELOG__
+
+10-10-2019
+  - Añadida definitivamente imagen de pimpmylog para ver los logs desde http://logs.localhost
+  - Habilitado adminer en http://localhost para poder suprimir contenedor de phpmyadmin
+  - Aumentada memory_limit a 512M y max_input_vars a 7000
+  - Limpieza de ficheros sobrantes
