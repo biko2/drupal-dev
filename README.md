@@ -23,9 +23,9 @@ __Funcionalidades__
 __Como usar adminer__
 
 Adminer responde a la conexión por defecto en http://localhost. Para conectarnos a la BBDD usar estos datos:
-*Server*: mysql
-*Username*: docker
-*Password*: docker
+- **Server**: mysql
+- **Username**: docker
+* **Password**: docker
 
 
 __CHANGELOG__
